@@ -33,13 +33,13 @@ class AppNavigator extends Component {
 
     componentWillMount() {
         const firebaseConfig = {
-            apiKey: "AIzaSyDMGJNYmXxo5cwoP1Ub6akKN4pEKcnxsPs",
-            authDomain: "awesomeproject-5debc.firebaseapp.com",
-            databaseURL: "https://awesomeproject-5debc.firebaseio.com",
-            projectId: "awesomeproject-5debc",
-            storageBucket: "awesomeproject-5debc.appspot.com",
-            messagingSenderId: "32433868482",
-            appId: "1:32433868482:web:6e445b05c8ed3cbe"
+            apiKey: "<Your API Key>",
+            authDomain: "<Your Project Link>",
+            databaseURL: "<Your Database Link>",
+            projectId: "<Your Project ID>",
+            storageBucket: "<Your link>",
+            messagingSenderId: "<Sender ID>",
+            appId: "<Your app ID>"
         };
 
         if (!firebase.apps.length) {
